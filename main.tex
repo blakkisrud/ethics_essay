@@ -1,0 +1,70 @@
+\documentclass[12p]{article}       
+\usepackage[utf8]{inputenc}
+\usepackage{parskip}
+\usepackage{graphicx}       				% For å inkludere figurer.
+\usepackage{amsmath,amssymb} 				% Ekstra matematikkfunksjoner.
+\usepackage{siunitx}% Må inkluderes for blant annet å få tilgang til kommandoen \SI (korrekte måltall med enheter)
+\usepackage{float}
+\usepackage{geometry}
+%\usepackage{tabular}
+
+
+\def\ps@pprintTitle{%
+\let\@oddhead\@empty
+\let\@evenhead\@empty
+\def\@oddfoot{}%
+\let\@evenfoot\@oddfoot}
+
+%	\sisetup{exponent-product = \cdot}      	% Prikk som multiplikasjonstegn (i steden for kryss).
+% 	\sisetup{output-decimal-marker  =  {,}} 	% Komma som desimalskilletegn (i steden for punktum).
+ %	\sisetup{separate-uncertainty = true}   	% Pluss-minus-form på usikkerhet (i steden for parentes). 
+\usepackage{booktabs}                     		% For å få tilgang til finere linjer (til bruk i tabeller og slikt).
+\usepackage[font=small,labelfont=bf]{caption}		% For justering av figurtekst og tabelltekst.
+
+% Disse kommandoene kan gjøre det enklere for LaTeX å plassere figurer og tabeller der du ønsker.
+\setcounter{totalnumber}{5}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\floatpagefraction}{0.35}
+\geometry{margin = 0.75in}
+
+\title{Woirking title (productions)}
+\author{Johan Blakkisrud}
+
+\begin{document}
+
+\maketitle
+
+\section*{Part 1}
+\subsection*{Task 1}
+
+\begin{thebibliography}{9}
+
+\bibitem{bath10}
+Båth, Magnus,
+\emph{Evaluating imaging systems: practical applications},
+Radiation Protection Dosimetry,
+139(26),
+2010.
+
+\bibitem{harrell99}
+Harrell G. Chotas and James T. Dobbins, III and Carl E. Ravin,
+\emph{Principles of Digital Radiography with Large-Area, Electronically Readable Detectors: A Review of the Basics},
+Radiology ,
+210(3) p:595-599
+1999
+
+\bibitem{Schagen265}
+\emph{Schagen, P.}
+X-Ray Image Intensifiers: Design and Future Possibilities,
+292(1390) p: 265-272
+Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences
+1979
+
+
+\end{thebibliography}
+ 
+
+\end{document}
+
