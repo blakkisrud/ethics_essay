@@ -6,6 +6,7 @@
 \usepackage{siunitx}% Må inkluderes for blant annet å få tilgang til kommandoen \SI (korrekte måltall med enheter)
 \usepackage{float}
 \usepackage{geometry}
+%\usepackage{natbib}
 %\usepackage{tabular}
 
 
@@ -59,7 +60,23 @@ Long voyages and monotenous food-supply on navy vessels resulted in a heinos con
 Documentation of the symptoms of scurvy dates back to Hippocrates, and symptoms of a scurvy-like disease was recorded by the ancient egyptians some 3500 years ago.
 A cure however, had eluded man for centuries \footnote{Some honorable mentions goes to Jaques Cartier who learned to drink water boiled with Eastern White Cedar, Sir Richard Hawkins who recomended orange and lemon juice, and John Woodall that recommended fresh fruits in general}
 This changed in 1747, when James Lind, a scottish physiscian, proved that sailors drinking citrus was spared for the disease.
-The interesting thing with Linden is that [did split patients into groups, and gave different remedies]
+%The interesting thing with Linden is that he  [did split patients into groups, and gave different remedies]
+The detail that seperates Lind from the others, is that instead of setting out to prove that a specific remedy helped, he carefully selected 12 patients, gave two and two different treatments, and watched the outcome.
+Patients were selected for the group to be is homogeneus as possible in respect to severety of disease, diet etc.
+The common diet in itself is interesting "...water gruel sweetened with sugar...fresh mutton broth...boiled biscuit with sugars" and "barley and raisins, rice and currents, sago and wine and the like" \cite{RN3}.
+Two patients took "elixir vitrol" thrice a day, two others got vinegear, two got cider, two got an "electory recommended by the surgeon general", two got seawater (!) and the last two got two lemons and one lime each day.
+All patients apart from the two citrus-consumers (and to a lesser extent the cider-drinkers) deteoriated and Lind concluded that citrus was the best remedy.
+These weeks in ultima may 1747 changed medicine.
+
+Today, in and around the medical community, such a design is the gold standard.
+It is the study design that all other designs should try to replicate. 
+A search for "Clincal" and "Randomized Controlled Trial" as a publication type in the database of US National Library of Medicine (PUBMED) gave on the 20. of June 2017 308 669 results.
+
+There are numerous advantages that comes with randomization.
+First of all, it eliminates bias by trying to remove systematic differences between groups.
+A second, and a bit more complicated: 
+When we interpret results from clinical research, we use statistical theory which is based on random sampling. (cite:altman).
+
 
 
 
@@ -70,12 +87,12 @@ Scurvy and lime juice - aye matey!
 \subsection*{Use today}
 Numbers, form and distribution, from sugar and salt to surgical intervention.
 \subsection*{Limitations}
-As the number, range and general use of RCTs are so enourmeus, I will limit the discussion as follows:
+As the number, range and general use of RCTs are so enormous, I will limit the discussion as follows:
 First of all, I will limit my discussion to medical research.
 Interesting concerns are raised in regards to the use of animals, but I will focus on cases where humans are the subjects.
-I will also focus on research and treatments that are "invasive", meating one or more of these four conditions:
+I will also focus on research and treatments that are "invasive", meeting one or more of these four conditions:
 (a) introduces a foreign element through surgery 
-(b) introduces a pharmaceutical with a known or loosely known effect
+(b) introduces a pharmaceutical with an expected effect
 (c) uses ionizing of radiation
 (d) any procedure that can cause distress in a normal human being
 This is a more "broad" definition of invasive than commonly used.
@@ -116,36 +133,39 @@ Is it all hopeless?
   
   \end{enumerate}
 
-\begin{thebibliography}{9}
 
-  \bibitem{RN2}
-Bolland, Mark J. and Avenell, Alison and Gamble, Greg D. and Grey, Andrew
-Systematic review and statistical analysis of the integrity of 33 randomized controlled trials
-Neurology
-87
-23
-2391-2402
-2016
+\bibliography{test.bib}
 
-\bibitem{RN3}
-Dunn, P.
-James Lind (1716-94) of Edinburgh and the treatment of scurvy
-Archives of Disease in Childhood Fetal and Neonatal Edition
-76
-1
-F64-F65
-1997
-
-\bibitem{RN1}
-Savulescu, Julian and Wartolowska, Karolina and Carr, Andy
-Randomised placebo-controlled trials of surgery: ethical analysis and guidelines
-Journal of Medical Ethics
-42
-12
-776-783
-2016
-
-\end{thebibliography}
+  %\begin{thebibliography}{9}
+  %
+  %  \bibitem{RN2}
+  %Bolland, Mark J. and Avenell, Alison and Gamble, Greg D. and Grey, Andrew
+  %Systematic review and statistical analysis of the integrity of 33 randomized controlled trials
+  %Neurology
+  %87
+  %23
+  %2391-2402
+  %2016
+  %
+  %\bibitem{RN3}
+  %Dunn, P.
+  %James Lind (1716-94) of Edinburgh and the treatment of scurvy
+  %Archives of Disease in Childhood Fetal and Neonatal Edition
+  %76
+  %1
+  %F64-F65
+  %1997
+  %
+  %\bibitem{RN1}
+  %Savulescu, Julian and Wartolowska, Karolina and Carr, Andy
+  %Randomised placebo-controlled trials of surgery: ethical analysis and guidelines
+  %Journal of Medical Ethics
+  %42
+  %12
+  %776-783
+  %2016
+  %
+  %\end{thebibliography}
  
 
 \end{document}
