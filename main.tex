@@ -1,5 +1,6 @@
 \documentclass[12p]{article}       
 \usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.5}
 \usepackage{parskip}
 \usepackage{graphicx}       				% For å inkludere figurer.
 \usepackage{amsmath,amssymb} 				% Ekstra matematikkfunksjoner.
@@ -31,7 +32,7 @@
 \geometry{margin = 0.75in}
 
 \title{Title 1: Randomized controlled trials, the gold standard with?
-  \footnote{Strongly depends of what I reach, "beauty flaws", "a false cry of saving", "without the means to end all discussion"}
+  %\footnote{Strongly depends of what I reach, "beauty flaws", "a false cry of saving", "without the means to end all discussion"}
 }
 \author{Johan Blakkisrud}
 
@@ -41,15 +42,15 @@
 
 \section*{Aim}
 
+"Randomized controlled trials appear to annoy human nature - if properly conducted, indeed they should." - Schultz 1995
+
 Randomized Controlled Trials (RCTs) is by a majority of the medical community considered as the "gold standard" for medical research.
 This essay is aiming to see if RCTs also are ethically sound.
 
 \section*{Introduction}
 
-\subsection*{Definition}
-
 A randomized control trial (RCT), sometimes also refered to as a randomized clinical trial or a randomized controlled trial, is a commonly used study design in clinical trials.
-A fundamental idea of the design is to group the patients prior to the study into (most commonly) two or more groups - the random selection of patients into these groups are the "randomized controlled" part.
+A fundamental idea of the design is to group the patients prior to the study into (most commonly) two the random selection of patients into these groups are the "randomized controlled" part.
 The patients are then treated according to their group.
 Typically one group receives a novel treatment, and the outcome of the group is compared to a "status quo treatment".
 Another typical example is comparing the treatment to a group given a placebo. 
@@ -59,82 +60,102 @@ The idea is not new, the history of RCTs begins in the 18th century, during the 
 Long voyages and monotenous food-supply on navy vessels resulted in a heinos condition, costing an estimated 2 million lives between 1500 to 1800, scurvy.
 Documentation of the symptoms of scurvy dates back to Hippocrates, and symptoms of a scurvy-like disease was recorded by the ancient egyptians some 3500 years ago.
 A cure however, had eluded man for centuries \footnote{Some honorable mentions goes to Jaques Cartier who learned to drink water boiled with Eastern White Cedar, Sir Richard Hawkins who recomended orange and lemon juice, and John Woodall that recommended fresh fruits in general}
-This changed in 1747, when James Lind, a scottish physiscian, proved that sailors drinking citrus was spared for the disease.
+This changed in 1747, when James Lind, a Scottish physician, proved that sailors drinking citrus was spared for the disease.
 %The interesting thing with Linden is that he  [did split patients into groups, and gave different remedies]
-The detail that seperates Lind from the others, is that instead of setting out to prove that a specific remedy helped, he carefully selected 12 patients, gave two and two different treatments, and watched the outcome.
-Patients were selected for the group to be is homogeneus as possible in respect to severety of disease, diet etc.
+The detail that separates Lind from the others, is that instead of setting out to prove that a specific remedy helped, he carefully selected 12 patients, gave two and two different treatments, and watched the outcome.
+Patients were selected for the group to be is homogeneous as possible in respect to severity of disease, diet etc.
 The common diet in itself is interesting "...water gruel sweetened with sugar...fresh mutton broth...boiled biscuit with sugars" and "barley and raisins, rice and currents, sago and wine and the like" \cite{RN3}.
-Two patients took "elixir vitrol" thrice a day, two others got vinegear, two got cider, two got an "electory recommended by the surgeon general", two got seawater (!) and the last two got two lemons and one lime each day.
+Two patients took "elixir vitriol" thrice a day, two others got vinegar, two got cider, two got an "electory recommended by the surgeon general", two got seawater (!) and the last two got two lemons and one lime each day.
 All patients apart from the two citrus-consumers (and to a lesser extent the cider-drinkers) deteoriated and Lind concluded that citrus was the best remedy.
-These weeks in ultima may 1747 changed medicine.
+These weeks in the ultimo of May 1747 changed medicine.
 
 Today, in and around the medical community, such a design is the gold standard.
-It is the study design that all other designs should try to replicate. 
-A search for "Clincal" and "Randomized Controlled Trial" as a publication type in the database of US National Library of Medicine (PUBMED) gave on the 20. of June 2017 308 669 results.
+It is the study design said to be the design of which all other designs should try to replicate. 
+A search for "Clinical" and "Randomized Controlled Trial" as a publication type in the database of US National Library of Medicine (PUBMED) gave on the 20. of June 2017 308 669 results, numbers gradually increasing since XX
+Another role of RCTs is that they are gate-keepers of new drugs, which has to pas one (or sometimes several) RCTs to become avaliable on the market. 
+For being such a large and leading part of the medical field, the ethical considerations should also stand to great scrutiny.
+In this essay I will try to highlight some aspects of RCTs in general, describing and dealing with concepts such as equipose, blinding, written concent and so on.
+I will then discuss theese elements of RCTs as well as RCTs in general within the most common ethical frame works, first and foremost utilitarism and deontology. 
+Lastly I will try to sum up with some concluding remarks.
 
-There are numerous advantages that comes with randomization.
-First of all, it eliminates bias by trying to remove systematic differences between groups.
-A second, and a bit more complicated: 
-When we interpret results from clinical research, we use statistical theory which is based on random sampling. (cite:altman).
+%As the number, range and general use of RCTs are so enormous, I will limit the discussion as follows:
+%First of all, I will limit my discussion to medical research.
+%Interesting concerns are raised in regards to the use of animals, but I will focus on cases where humans are the subjects.
+%I will also focus on research and treatments that are "invasive", meeting one or more of these four conditions:
+%(a) introduces a foreign element through surgery 
+%(b) introduces a pharmaceutical with an expected effect
+%(c) uses ionizing radiation
+%(d) any procedure that can cause distress in a normal human being
 
-
-
-
-
-
-\subsection*{Historical origins}
-Scurvy and lime juice - aye matey!
-\subsection*{Use today}
-Numbers, form and distribution, from sugar and salt to surgical intervention.
-\subsection*{Limitations}
-As the number, range and general use of RCTs are so enormous, I will limit the discussion as follows:
-First of all, I will limit my discussion to medical research.
-Interesting concerns are raised in regards to the use of animals, but I will focus on cases where humans are the subjects.
-I will also focus on research and treatments that are "invasive", meeting one or more of these four conditions:
-(a) introduces a foreign element through surgery 
-(b) introduces a pharmaceutical with an expected effect
-(c) uses ionizing of radiation
-(d) any procedure that can cause distress in a normal human being
-This is a more "broad" definition of invasive than commonly used.
-The last one is particularly vague and requires individual considerations.
-I will both consider the situation where two treatments are opposed to each other, and situations where one treatment is compared to a placebo.
-\section*{Ethical problems?}
-\subsection*{Contemporary views}
-How is RCTs generally regarded?
-\subsection*{Contemporary discussions (laymen, the community)}
-What do the media and the general public think?
-\subsection*{Contemporary discussions (medical community)}
-How is regarded by the medical professionals, doctors and other scientists?
-\subsection*{Contemporary discussions (ethical scholars)}
-Are there a philosophical discussion? Have they reached any conclusions? Are they correct?
-\subsection*{In the frameworks of "big" ethical schools}
-Who have the biggest problem with RCTs, and should we care?
+The first aspect I want consider, is the person conducting the RCT.
+She has a dilemma.
+Lets assume that she is a physician, she would then be a "physician-scientist", a termed coined by Hellman and Hellman [cite].
+The term is rather apt, describing two roles that are difficult to reconcile.
+The physician connects deeply with the human subject.
+As Hellmann and Hellmann cites Leon Kass: "the physician must produce unswervingly the virtues of loyalty and fidelity to his patient."
+The physician has a duty towards the patient to do good and not cause harm.
 
 
-\section*{Ethical resolutions?}
-\subsection*{Solutions to the problems (if any)}
-Is it all hopeless?
-\section*{Conclusion (possibly vague)}
+The second aspect is largely linked to the physician in the plural form, and that is clinical equipoise.
 
-\section*{Own notes}
+Written consent
 
-\begin{enumerate}
+An important aspect in an RCTs is something called "power", or "statistical power".
+One conducts an analysis before the RCT start and calculates the needed participants in the study to reveal an effect.
+The results from an "underpowered" RCT should be considered "scientifically worthless" (Halpern citing Altmann). 
+To call them 
+ 
 
-\item
-  The example with the kidney is interesting, as in "is there a difference to take out a kidney 
-  and throw it in the thrash, to investigate of whether or not a kidney "can" be extracted in contrast
-  it to take it out and put it into a needing receipient?
-\item
-  Separation between research and treatment - do we need the treatment aspect as it is not the same - failure to acknowledge that can lead to "very bad things"
-  But, also important, the complete separation can also lead to very bad things
-\item
-  Wacky though: suffering introduced (not death, or, why not death?) for some greater good - can it be drawn a line between "holocaust" and todays practice? 
-  If not, we have a problem.
-  
-  \end{enumerate}
+%There are numerous advantages that comes with randomization.
+%First of all, it eliminates bias by trying to remove systematic differences between groups.
+%A second, and a bit more complicated: 
+%When we interpret results from clinical research, we use statistical theory which is based on random sampling to infer information of a larger group (in theory all patients) from relatively small group (the research subjects). (cite:altman).
+
+%This is a more "broad" definition of invasive than commonly used.
+%The last one is particularly vague and requires individual considerations.
+%I will not for the sake of discussion limit the illness or ailment that is treated, for now it could be anything ranging from cosmetic to life-saving.
 
 
-\bibliography{test.bib}
+
+
+
+
+%\subsection*{Contemporary views}
+%How is RCTs generally regarded?
+%\subsection*{Contemporary discussions (laymen, the community)}
+%What do the media and the general public think?
+%\subsection*{Contemporary discussions (medical community)}
+%How is regarded by the medical professionals, doctors and other scientists?
+%\subsection*{Contemporary discussions (ethical scholars)}
+%Are there a philosophical discussion? Have they reached any conclusions? Are they correct?
+%\subsection*{In the frameworks of "big" ethical schools}
+%Who have the biggest problem with RCTs, and should we care?
+%
+%
+%\section*{Ethical resolutions?}
+%\subsection*{Solutions to the problems (if any)}
+%Is it all hopeless?
+%\section*{Conclusion (possibly vague)}
+%
+%\section*{Own notes}
+%
+%\begin{enumerate}
+%
+%\item
+%  The example with the kidney is interesting, as in "is there a difference to take out a kidney 
+%  and throw it in the thrash, to investigate of whether or not a kidney "can" be extracted in contrast
+%  it to take it out and put it into a needing receipient?
+%\item
+%  Separation between research and treatment - do we need the treatment aspect as it is not the same - failure to acknowledge that can lead to "very bad things"
+%  But, also important, the complete separation can also lead to very bad things
+%\item
+%  Wacky though: suffering introduced (not death, or, why not death?) for some greater good - can it be drawn a line between "holocaust" and todays practice? 
+%  If not, we have a problem.
+%  
+%  \end{enumerate}
+%
+
+\bibliography{test}
 
   %\begin{thebibliography}{9}
   %
