@@ -1,0 +1,42 @@
+﻿@article{RN2,
+   author = {Bolland, Mark J. and Avenell, Alison and Gamble, Greg D. and Grey, Andrew},
+   title = {Systematic review and statistical analysis of the integrity of 33 randomized controlled trials},
+   journal = {Neurology},
+   volume = {87},
+   number = {23},
+   pages = {2391-2402},
+   DOI = {10.1212/wnl.0000000000003387},
+   url = {http://www.neurology.org/content/87/23/2391.abstract
+http://www.neurology.org/content/87/23/2391.full.pdf},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3,
+   author = {Dunn, P.},
+   title = {James Lind (1716-94) of Edinburgh and the treatment of scurvy},
+   journal = {Archives of Disease in Childhood Fetal and Neonatal Edition},
+   volume = {76},
+   number = {1},
+   pages = {F64-F65},
+   ISSN = {1359-2998
+1468-2052},
+   url = {http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1720613/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1720613/pdf/v076p00F64.pdf},
+   year = {1997},
+   type = {Journal Article}
+}
+
+@article{RN1,
+   author = {Savulescu, Julian and Wartolowska, Karolina and Carr, Andy},
+   title = {Randomised placebo-controlled trials of surgery: ethical analysis and guidelines},
+   journal = {Journal of Medical Ethics},
+   volume = {42},
+   number = {12},
+   pages = {776-783},
+   DOI = {10.1136/medethics-2015-103333},
+   url = {http://jme.bmj.com/content/medethics/42/12/776.full.pdf},
+   year = {2016},
+   type = {Journal Article}
+}
+
