@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.14)  23 JUN 2017 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.14)  26 JUN 2017 13:21
 entering extended mode
 **./main.tex
 (main.tex
@@ -768,7 +768,7 @@ Package caption Info: float package is loaded.
 LaTeX Warning: Unused global option(s):
     [12p].
 
-No file main.aux.
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -941,8 +941,8 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13519 strings out of 493634
- 274192 string characters out of 3135239
+ 13521 strings out of 493634
+ 274208 string characters out of 3135239
  284286 words of memory out of 3000000
  16809 multiletter control sequences out of 15000+200000
  14363 words of font info for 57 fonts, out of 3000000 for 9000
@@ -959,7 +959,7 @@ Users/Johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r7.pfb><C:/Users/Johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr8.pfb><C:/Users/Johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (3 pages, 117809 bytes).
+Output written on main.pdf (3 pages, 120750 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
