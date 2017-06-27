@@ -1,5 +1,6 @@
 *.aux
 *.log
 aux_files/*
+tmp_pdf/*
 *.swp
 *.un~
